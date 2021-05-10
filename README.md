@@ -30,7 +30,7 @@ by this module. All error classes can be found in `./errors/index.ts`.
 Usage example of an error provided by this module:
 
 ```javascript
-const { IllegalArgumentError } = require('@northscaler/error-support-ts/errors')
+const { IllegalArgumentError } = require('@northscaler/error-support/errors')
 throw new IllegalArgumentError({ message: 'foobar', context: { sna: 'fu' } })
 ```
 
