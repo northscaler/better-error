@@ -15,12 +15,6 @@ stages:
   - build
   - publish
 
-build-10:
-  stage: build
-  image: node:10.0.0-alpine
-  script:
-    - npm run build-ci
-
 build-12:
   stage: build
   image: node:12.0.0-alpine
