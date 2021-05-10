@@ -30,3 +30,4 @@ src/config/custom-environment-variables.json
 tag-nodejs
 docs/
 rel*
+LICENSE*
