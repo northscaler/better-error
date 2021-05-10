@@ -30,6 +30,10 @@
     "lic": "node lic.js > LICENSE"
   },
   "main": "dist/main/index.js",
+  "keywords": [
+    "error",
+    "errors"
+  ],
   "publishConfig": {
     "access": "public"
   },
