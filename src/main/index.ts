@@ -1,1 +1,3 @@
-export { BetterError } from './errors'
+import { BetterError } from './errors'
+
+export default BetterError
