@@ -31,3 +31,4 @@ tag-nodejs
 docs/
 rel*
 LICENSE*
+src/templates/**/*
