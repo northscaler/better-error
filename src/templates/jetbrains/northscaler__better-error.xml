@@ -1,0 +1,9 @@
+<templateSet group="@northscaler/better-error">
+    <template name="nserr-ts" value="import { $Supererror$ } from '@northscaler/better-error/dist/main/errors'&#10;import { BetterErrorConstructorArg } from '@northscaler/better-error/dist/main/errors/BetterError'&#10;&#10;export $END$class $ClassName$ extends $Supererror$ {&#10;  constructor(arg: BetterErrorConstructorArg) {&#10;    super(arg)&#10;  }&#10;}&#10;" description="Northscaler BetterError class" toReformat="true" toShortenFQNames="true">
+        <variable name="Supererror" expression="enum(&quot;BetterError&quot;,&quot;IllegalArgumentError&quot;,&quot;IllegalArgumentTypeError&quot;,&quot;IllegalStateError&quot;)" defaultValue="IllegalArgumentError" alwaysStopAt="true" />
+        <variable name="ClassName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+        </context>
+    </template>
+</templateSet>
