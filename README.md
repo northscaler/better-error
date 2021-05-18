@@ -34,6 +34,10 @@ const { IllegalArgumentError } = require('@northscaler/error-support/errors')
 throw new IllegalArgumentError({ message: 'foobar', context: { sna: 'fu' } })
 ```
 
+> NOTE: There are helpful IDE-specific templates to assist you in following the patterns prescribed by this library.
+> See ./src/templates for more information.
+> If you don't see templates for your IDE, please submit a pull/merge request.
+
 ## Codes
 
 Unfortunately, JavaScript's `Error` class only supports `name` (if you set it) & `message` to convey error information
