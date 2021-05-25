@@ -1,6 +1,5 @@
 import * as chai from 'chai'
-import BetterError from '../../main'
-import { BetterErrorConstructorArg } from '../../main/errors/BetterError'
+import { BetterError, BetterErrorConstructorArg } from '../../main'
 
 const expect = chai.expect
 

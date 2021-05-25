@@ -1,10 +1,7 @@
 import { BetterError, BetterErrorConstructorArg } from './BetterError'
 
-export { BetterError } from './BetterError'
+export * from './BetterError'
 
-/**
- *
- */
 export class AlreadyInitializedError extends BetterError {
   constructor(arg?: BetterErrorConstructorArg) {
     super(arg)
